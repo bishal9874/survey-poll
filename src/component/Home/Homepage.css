@@ -1,0 +1,172 @@
+.titleforHome {
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.catagories{
+  color: white;
+  font-size: 23px;
+}
+.survey-title{
+  color: white;
+  padding: 0.75rem 1rem;
+  font-size: 100%;
+  font-weight: 500;
+}
+.back_button {
+  display: block;
+  margin: 3rem auto 1rem auto;
+  width: 55%;
+  padding: 0.75rem 1rem;
+  border-radius: 25px;
+  outline: 0;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  border: 2px solid transparent;
+}
+.answer-button{
+  display: block;
+  /* margin: 3rem auto 1rem auto; */
+  width: 50%;
+  
+  padding: 0.75rem 1rem;
+  border-radius: 25px;
+  outline: 0;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  border: 2px solid transparent;
+}
+.answer-button:hover {
+  border: 2px solid #000;
+  background-color: transparent;
+  
+}
+.point{
+  width: 20%;
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+.Point-text{
+  font-weight: normal;
+}
+input[type='checkbox'] {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  outline: 2px solid #333;
+  border: 3px solid white;
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+}
+
+input[type='checkbox']:checked {
+  background: #333;
+}
+.poll-question{
+  padding: 0.5rem 0.5rem;
+  font-size: 20px;
+}
+.options{
+  padding: 0.3rem 0.3rem;
+}
+.options .option-container{
+  border: 1px solid rgb(197, 197, 197);
+    display: block;
+    margin: 3px 0;
+    padding: 8px 10px;
+   cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(219, 217, 217);
+    margin-left: 5px;
+}
+/* .point{
+  width: 20%;
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  color: #000;
+
+} */
+
+
+/* Survey section CSS */
+
+
+.question-section {
+  width: 100%;
+  margin: 4%;
+  position: relative;
+}
+
+.question-text{
+  margin-bottom: 2%;
+}
+/* ANSWERS/RIGHT SECTION */
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 10%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  display: flex;
+  padding: 2px;
+  justify-content: flex-start;
+  border: 5px solid #234668;
+  cursor: pointer;
+  text-align: center;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.actions button {
+  background-color: #7cc6fe;
+  justify-content: center;
+  width: 20%;
+}
+.actions button:hover {
+  background-color: #234668;
+  color: white;
+}
+.font-line{
+  display: inline-block;
+  color: #1143f7;
+
+}
